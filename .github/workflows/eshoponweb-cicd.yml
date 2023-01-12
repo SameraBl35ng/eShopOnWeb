@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshopeonweb-Samera
-  LOCATION: southafricanorth
+  LOCATION: "southafricanorth"
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: c818fa99-5774-476a-8438-0c77ae1841db
   WEBAPP-NAME: az400-webapp-Samera
